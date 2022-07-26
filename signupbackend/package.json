@@ -1,0 +1,26 @@
+{
+  "name": "signupbackend",
+  "version": "1.0.0",
+  "description": "SIgn Up Application",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/A0i-Noel/SignUp.git"
+  },
+  "author": "Aoi Kuriki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/A0i-Noel/SignUp/issues"
+  },
+  "homepage": "https://github.com/A0i-Noel/SignUp#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.6",
+    "nodemon": "^2.0.19"
+  }
+}
